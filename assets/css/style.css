@@ -152,7 +152,7 @@ a{
 .owl-dots .owl-dot {
     width: 10px;
     height: 10px;
-    background: #07294d none repeat scroll 0 0;
+    background: #000 none repeat scroll 0 0;
     display: inline-block;
     margin: 0 4px;
     border-radius: 20px;
@@ -196,7 +196,7 @@ a{
     font-size: 16px;
     font-weight: 500;
     line-height: 17px;
-    color: #07294d !important;
+    color: #000 !important;
     background-color: #ffc600;
     padding: 17px 30px;
     display: inline-block;
@@ -217,10 +217,10 @@ a{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 4px;
-    color: #07294d;
+    color: #000;
 }
 .theme-title > a{
-    color: #07294d;
+    color: #000;
 }
 .theme-title > a:hover{
     color: #ffc600;
@@ -274,7 +274,7 @@ a{
     font-size: 18px;
     font-weight: 500;
     margin: 0px 0px 4px;
-    color: #07294d;
+    color: #000;
 }
 .theme-input-box .theme-input {
     border: 1px solid #eee;
@@ -288,7 +288,7 @@ a{
 /* custom */
 /* header */
 .header-top {
-    background-color: #07294d;
+    background-color: #b48230;
     padding: 10px 0px;
 }
 .header-top .header-top-content p {
@@ -340,7 +340,7 @@ a{
     text-align: center;
     border: 1px solid #eaecf2;
     line-height: 45px;
-    color: #07294d;
+    color: #000;
     font-size: 18px;
 }
 .header-widget .header-content {
@@ -393,7 +393,7 @@ a{
 .header-nav-area .header-nav-menu-area ul > li a {
     font-size: 16px;
     font-weight: 600;
-    color: #07294d;
+    color: #000;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -447,13 +447,13 @@ a{
 }
 .header-nav-area .header-nav-menu-area ul > li .theme-dropdown > ul > li > a.active,
 .header-nav-area .header-nav-menu-area ul > li .theme-dropdown > ul > li > a:hover {
-    background-color: #07294d;
+    background-color: #000;
 }
 /* dropdown css */
 /* header */
 /* slider */
 .slider-area {
-    background-color: #07294d;
+    background-color: #000;
     position: relative;
 }
 .slider-area::before {
@@ -528,7 +528,7 @@ a{
     line-height: 65px;
     margin-bottom: 25px;
     background-color: rgba(7, 41, 77, 0.13);
-    color: #07294d;
+    color: #000;
 }
 .why-chhose-us-content .theme-title,
 .why-chhose-us-content .theme-description {
@@ -578,7 +578,7 @@ a{
 }
 .content-meta li a > i {
     margin-right: 8px;
-    color: #07294d;
+    color: #000;
 }
 .content-footer {
     border-top: 1px solid #EEE;
@@ -610,6 +610,7 @@ a{
     display: block;
     line-height: normal;
     font-weight: 600;
+    font-size: 12px;
 }
 .cource-single-left {
     box-shadow: 0px 0px 15px #eee;
@@ -636,7 +637,7 @@ a{
     margin-right: 12px;
 }
 .cource-single-content .cource-single-top .cource-meta ul li > i {
-    color: #07294d;
+    color: #000;
     margin-right: 4px;
 }
 .cource-single-content .cource-single-top .cource-meta ul li:last-child {
@@ -655,7 +656,7 @@ a{
     margin-bottom: 0px;
 }
 .cource-single-bottom .cource-single-box .theme-title {
-    color: #07294d;
+    color: #000;
 }
 .cource-single-bottom .cource-single-box .learning-menu {
     margin-top: 15px;
@@ -664,7 +665,7 @@ a{
 .cource-single-bottom .cource-single-box .learning-menu li {
     font-size: 16px;
     padding-bottom: 8px;
-    color: #07294d;
+    color: #000;
     font-weight: 500;
     position: relative;
     padding-left: 30px;
@@ -727,7 +728,7 @@ a{
     margin: 0px;
     font-size: 16px;
     font-weight: 500;
-    color: #07294d;
+    color: #000;
     text-align: right;
 }
 .cource-detail-right ul > li .cource-detail-right-box .rating-stars {
@@ -737,11 +738,12 @@ a{
     width: 100%;
 }
 .reviews-area {
-    background-image: url(../images/review-bg.png);
+    /* background-image: url(../images/review-bg.png); */
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     padding: 30px 0px 60px;
+    background-color: #141313ba;
 }
 .reviews-box {
     margin-top: 30px;
@@ -815,7 +817,7 @@ a{
 .events-content .event-list li > a {
     font-size: 15px;
     font-weight: 500;
-    color: #07294d;
+    color: #000;
     text-decoration: none;
 }
 .events-content .event-list li > a > i {
@@ -865,7 +867,7 @@ a{
 }
 .our-gallery-area .content .single-content .single-content-box::before {
     content: "";
-    background-color: #07294d;
+    background-color: #000;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -938,7 +940,7 @@ a{
 }
 .our-teacher-area .teacher-box .teacher-images::before {
     content: "";
-    background-color: #07294d;
+    background-color: #000;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -976,7 +978,7 @@ a{
 .teacher-profile-left .teacher-profile-content .theme-title {
     text-align: center;
     margin: 0px -20px;
-    background-color: #07294d;
+    background-color: #000;
     color: #ffc600;
     padding: 15px 15px;
 }
@@ -1003,7 +1005,7 @@ a{
 .teacher-profile-left .teacher-profile-content .theme-title {
     text-align: center;
     margin-bottom: 8px;
-    background-color: #07294d;
+    background-color: #000;
     color: #ffc600;
     padding: 15px 20px;
 }
@@ -1040,7 +1042,7 @@ a{
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 10px;
-    color: #07294d;
+    color: #000;
     position: relative;
     padding-left: 25px;
 }
@@ -1083,7 +1085,7 @@ a{
 }
 .pricing-box .pricing-header {
     padding: 15px 15px;
-    background-color: #07294d;
+    background-color: #000;
     border-radius: 6px 6px 0px 0px;
 }
 .pricing-box .pricing-header h2 {
@@ -1206,7 +1208,7 @@ a{
     position: relative;
 }
 .post-content .post-content-text .post-meta ul li > a {
-    color: #07294d;
+    color: #000;
 }
 .post-content .post-content-text .post-meta ul li::before {
     content: "";
@@ -1263,7 +1265,7 @@ a{
 }
 .blog-post-content blockquote p {
     font-size: 18px !important;
-    border-left: 5px solid #07294d;
+    border-left: 5px solid #000;
     border-radius: 6px;
     font-style: italic;
     padding-left: 15px;
@@ -1442,7 +1444,7 @@ font-family: 'Rubik', sans-serif;
     color: #666;
 }
 .post-item .post-info h4 > a {
-    color: #07294d;
+    color: #000;
 }
 .post-item .post-info .post-info-time {
     font-size: 13px;
@@ -1474,8 +1476,8 @@ font-family: 'Rubik', sans-serif;
     color: #666;
 }
 .blog-single-tag a:hover{
-    border-color: #07294d;
-    background-color: #07294d;
+    border-color: #000;
+    background-color: #000;
     color: #fff;
 }
 .widget-box .widget {
@@ -1523,7 +1525,7 @@ font-family: 'Rubik', sans-serif;
     color: #666;
 }
 .widget-tag li a:hover{
-  color: #07294d;
+  color: #000;
 }
 .widget-tag .widget-tag li {
     display: inline-block;
@@ -1539,14 +1541,14 @@ font-family: 'Rubik', sans-serif;
     color: #666;
 }
 .widget-tag .widget-tag li > a:hover {
-    border-color: #07294d;
-    background-color: #07294d;
+    border-color: #000;
+    background-color: #000;
     color: #fff;
 }
 /* blog */
 /* breadcrumb */
 .breadcrumb-area {
-    background-color: #07294d;
+    background-color: #000;
     padding: 60px 0px 140px;
     position: relative;
     margin-bottom: -30px;
@@ -1625,7 +1627,7 @@ font-family: 'Rubik', sans-serif;
 .about-education .education-about-icon {
     height: 60px;
     width: 60px;
-    background-color: #07294d;
+    background-color: #000;
     border-radius: 100%;
     text-align: center;
     line-height: 62px;
@@ -1672,7 +1674,7 @@ font-family: 'Rubik', sans-serif;
 .contact-detail .contact-detail-box .contact-detail-icon > i{
     height: 60px;
     width: 60px;
-    background-color: #07294d;
+    background-color: #000;
     border-radius: 100%;
     font-size: 26px;
     text-align: center;
@@ -1717,7 +1719,7 @@ font-family: 'Rubik', sans-serif;
     width: 19%;
     height: 101%;
     left: -26px;
-    background: #07294d;
+    background: #000;
     -webkit-transform: skew(30deg);
     transform: skew(30deg);
 }
@@ -1774,7 +1776,7 @@ font-family: 'Rubik', sans-serif;
 }
 .scholarships-bottom .scholarships-item .scholarships-icon {
     font-size: 32px;
-    color: #07294d;
+    color: #000;
     text-align: center;
     margin-bottom: 8px;
 }
@@ -1837,7 +1839,7 @@ font-family: 'Rubik', sans-serif;
     margin-bottom: 12px;
 }
 .result-area .theme-btn {
-    background-color: #07294d;
+    background-color: #000;
     color: #fff !important;
 }
 /* result */
@@ -1861,7 +1863,7 @@ font-family: 'Rubik', sans-serif;
 /* alert */
 /* footer */
 .footer-main {
-    background-color: #07294d;
+    background-color: #000;
     position: relative;
 }
 .footer-main::before {
@@ -2017,7 +2019,7 @@ font-family: 'Rubik', sans-serif;
     background-color: #FF0000;
 }
 .footer-bottom {
-    background-color: #032243;
+    background-color: #e9c66a;
     padding: 15px 0px;
 }
 .footer-bottom .footer-copyright p {
