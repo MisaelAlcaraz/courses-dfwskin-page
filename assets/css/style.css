@@ -163,7 +163,7 @@ a{
 }
 .owl-dots .owl-dot.active {
     width: 25px;
-    background: #ffc600 none repeat scroll 0 0;
+    background: #d5b95a none repeat scroll 0 0;
 }
 .theme-slider{
     overflow: hidden;
@@ -197,7 +197,7 @@ a{
     font-weight: 500;
     line-height: 17px;
     color: #000 !important;
-    background-color: #ffc600;
+    background-color: #d5b95a;
     padding: 17px 30px;
     display: inline-block;
     text-decoration: none !important;
@@ -223,7 +223,7 @@ a{
     color: #000;
 }
 .theme-title > a:hover{
-    color: #ffc600;
+    color: #d5b95a;
 }
 .theme-description {
     font-size: 15px;
@@ -246,7 +246,7 @@ a{
     width: 35px;
     display: block;
     line-height: 35px;
-    background-color: #ffc600;
+    background-color: #d5b95a;
     color: #000;
     border-radius: 2px;
 }
@@ -288,7 +288,7 @@ a{
 /* custom */
 /* header */
 .header-top {
-    background-color: #b48230;
+    background-color: #d5b95a;
     padding: 10px 0px;
 }
 .header-top .header-top-content p {
@@ -314,7 +314,7 @@ a{
     transition: all 0.5s;
 }
 .header-top .header-top-menu ul li > a:hover {
-    color: #ffc600;
+    color: #d5b95a;
 }
 .header-bottom {
     padding: 25px 0px;
@@ -413,7 +413,7 @@ a{
     right: 0px;
 }
 .header-nav-area .header-nav-menu-box .header-request .theme-btn {
-    background-color: #ffc600;
+    background-color: #d5b95a;
     padding: 23px 30px;
 }
 /* dropdown css */
@@ -423,7 +423,7 @@ a{
     top: 42px;
     z-index: 99;
     background-color: #fff;
-    border-top: 5px solid #ffc600 !important;
+    border-top: 5px solid #d5b95a !important;
     left: 0px;
     border: 1px solid #eee;
     transition: all 0.5s;
@@ -456,7 +456,7 @@ a{
     background-color: #000;
     position: relative;
 }
-.slider-area::before {
+/* .slider-area::before {
     content: "";
     background-image: url(../images/ovarlay-slide.jpg);
     height: 100%;
@@ -467,7 +467,29 @@ a{
     right: 0px;
     background-attachment: fixed;
     opacity: 0.4;
+} */
+
+.video-container {
+    position: relative;
 }
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;
+}
+
 .slider-area .slider-shape {
     position: absolute;
     bottom: -4px;
@@ -559,7 +581,7 @@ a{
     float: left;
 }
 .rating-stars i {
-    color: #ffc600;
+    color: #d5b95a;
     font-size: 18px;
     line-height: normal;
 }
@@ -676,7 +698,7 @@ a{
 .cource-single-bottom .cource-single-box .learning-menu li > i {
     font-size: 16px;
     margin-right: 4px;
-    color: #ffc600;
+    color: #d5b95a;
     position: absolute;
     top: 3px;
     left: 0px;
@@ -713,7 +735,7 @@ a{
 }
 .cource-detail-right ul > li .cource-detail-right-box .cource-detail-box-left > i {
     font-size: 16px;
-    color: #ffc600;
+    color: #d5b95a;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -788,7 +810,7 @@ a{
     font-weight: 500;
     margin: 0px;
     padding: 12px 15px;
-    background-color: #ffc600;
+    background-color: #d5b95a;
     color: #000;
 }
 .events-box .events-images .event-date h5 span {
@@ -843,7 +865,7 @@ a{
     margin-right: 0px;
 }
 .filters ul > li.active {
-    background-color: #ffc600;
+    background-color: #d5b95a;
 }
 /* event */
 /* gallery */
@@ -898,7 +920,7 @@ a{
 .our-gallery-area .content .single-content .single-content-box .single-description .gallery-ico {
     height: 60px;
     width: 60px;
-    background-color: #ffc600;
+    background-color: #d5b95a;
     margin: 0px auto 8px;
     color: #000;
     line-height: 62px;
@@ -979,7 +1001,7 @@ a{
     text-align: center;
     margin: 0px -20px;
     background-color: #000;
-    color: #ffc600;
+    color: #d5b95a;
     padding: 15px 15px;
 }
 .teacher-profile-left .teacher-profile-content .teacher-profile-description {
@@ -1006,7 +1028,7 @@ a{
     text-align: center;
     margin-bottom: 8px;
     background-color: #000;
-    color: #ffc600;
+    color: #d5b95a;
     padding: 15px 20px;
 }
 .teacher-profile-left .teacher-profile-images .teacher-profile-images-box {
@@ -1024,7 +1046,7 @@ a{
 .teacher-profile-left .teacher-profile-content .teacher-profile-description li > i {
     font-size: 15px;
     margin-right: 4px;
-    color: #ffc600;
+    color: #d5b95a;
 }
 .teacher-profile-right .teacher-profile-right-content .teacher-profile-box {
     margin-bottom: 15px;
@@ -1050,7 +1072,7 @@ a{
     position: absolute;
     top: 5px;
     left: 0px;
-    color: #ffc600;
+    color: #d5b95a;
 }
 .teacher-profile-right .teacher-profile-right-content .teacher-profile-box .teacher-profile-box-list ul li:last-child {
     padding-bottom: 0px;
@@ -1615,7 +1637,7 @@ font-family: 'Rubik', sans-serif;
 }
 .about-content ul > li > i {
     font-size: 16px;
-    color: #ffc600;
+    color: #d5b95a;
     position: absolute;
     top: 15px;
     left: 15px;
@@ -1632,7 +1654,7 @@ font-family: 'Rubik', sans-serif;
     text-align: center;
     line-height: 62px;
     font-size: 28px;
-    color: #ffc600;
+    color: #d5b95a;
     display: table-cell;
     vertical-align: middle;
 }
@@ -1678,7 +1700,7 @@ font-family: 'Rubik', sans-serif;
     border-radius: 100%;
     font-size: 26px;
     text-align: center;
-    color: #ffc600;
+    color: #d5b95a;
     line-height: 60px;
 }
 .contact-detail .contact-detail-box .contact-detail-contemt {
@@ -1845,7 +1867,7 @@ font-family: 'Rubik', sans-serif;
 /* result */
 /* alert */
 .aleart-box {
-    background-color: #ffc600;
+    background-color: #d5b95a;
     color: #000;
     position: fixed;
     top: 15px;
@@ -1891,7 +1913,7 @@ font-family: 'Rubik', sans-serif;
 .footer-title .theme-title {
     font-size: 22px;
     position: relative;
-    color: #ffc600;
+    color: #d5b95a;
     margin-bottom: 40px;
 }
 .footer-title .theme-title::before {
@@ -1924,13 +1946,13 @@ font-family: 'Rubik', sans-serif;
     transition: all 0.5s;
 }
 .footer-box .footer-content ul li > a:hover{
-    color: #ffc600;
+    color: #d5b95a;
 }
 .footer-box .footer-content ul li > span > i {
     position: absolute;
     top: 4px;
     left: 0px;
-    color: #ffc600;
+    color: #d5b95a;
 }
 .footer-box.footer-feature .footer-content {
     margin: 0px -15px;
@@ -2028,7 +2050,7 @@ font-family: 'Rubik', sans-serif;
     color: #fff;
 }
 .footer-bottom .footer-copyright p > a {
-    color: #ffc600;
+    color: #d5b95a;
 }
 /* footer */
 /* keyframe */
