@@ -534,7 +534,6 @@ a{
     color: white;
 }
 .why-choose-us-area p {
-    color: white;
     color: #d5b95a;
 }
 .why-chhose-us-box-inner {
@@ -593,6 +592,32 @@ a{
     justify-content: center;
 }
 
+
+.popular-course-area .section-title h2 {
+    color: black;
+    text-transform: uppercase;
+}
+.popular-course-area .section-title p {
+    color: #d5b95a;
+    text-transform: uppercase;
+}
+
+.popular-course-area .theme-title {
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.popular-course-area .theme-description {
+    color: black;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.popular-course-area .licenses .price{
+    margin: 0px auto;
+}
 .content_box {
     background-color: #fff;
     margin-top: 30px;
