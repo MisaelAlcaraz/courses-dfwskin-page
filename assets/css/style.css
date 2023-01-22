@@ -528,6 +528,14 @@ a{
 /* why choose us */
 .why-choose-us-area {
     padding-top: 30px;
+    background-color: black;
+}
+.why-choose-us-area h2 {
+    color: white;
+}
+.why-choose-us-area p {
+    color: white;
+    color: #d5b95a;
 }
 .why-chhose-us-box-inner {
     padding: 30px;
@@ -552,10 +560,39 @@ a{
     background-color: rgba(7, 41, 77, 0.13);
     color: #000;
 }
-.why-chhose-us-content .theme-title,
-.why-chhose-us-content .theme-description {
+
+.why-chhose-us-box-inner .why-chose-us-icon-custom {
+    border-radius: 100%;
+    display: inline-block;
+    /* padding: 20px; */
+    position: relative;
+    /* height: 100px; */
+    width: 100px;
+    text-align: center;
+    /* font-size: 40px; */
+    /* line-height: 65px; */
+    /* margin-bottom: 25px; */
     color: #000;
 }
+
+.why-chhose-us-content .theme-title,
+.why-chhose-us-content .theme-description {
+    color: #d5b95a;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.respeto img {
+    max-width: 55px;
+}
+
+.ethical-values-img{
+    justify-content: center;
+}
+
 .content_box {
     background-color: #fff;
     margin-top: 30px;
