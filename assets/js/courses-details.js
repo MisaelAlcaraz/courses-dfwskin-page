@@ -1,4 +1,0 @@
-function detailTemplate(data) {
-    return 
-    
-}
