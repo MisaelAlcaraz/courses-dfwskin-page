@@ -11,6 +11,7 @@ $(document).ready(function() {
     });
     $('.grid').isotope({
         itemSelector: '.grid-item',
+        filter: '.g-img'
     });
     // filter items on button click
     $('.filter-button-group').on('click', 'li', function() {
