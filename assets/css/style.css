@@ -172,7 +172,7 @@ a{
     float: left;
 }
 .page-paddings {
-    padding: 60px 0px;
+    padding: 160px 0px;
 }
 .page-background {
     padding: 60px 0px;
@@ -942,6 +942,11 @@ a{
     margin: 0px auto;
 }
 .our-gallery-area .content .single-content img {
+    
+    border-radius: 15px;
+}
+
+.our-gallery-area .content .single-content video {
     
     border-radius: 15px;
 }
