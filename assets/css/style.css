@@ -654,7 +654,7 @@ a{
 }
 .content-meta li {
     float: left;
-    padding-right: 15px;
+    padding-right: 6px;
     font-size: 15px;
 }
 .content-meta li a {
@@ -687,6 +687,7 @@ a{
 }
 .price {
     float: right;
+    margin: 0px auto;
 }
 .price .alert {
     margin: 0;
@@ -2019,6 +2020,11 @@ font-family: 'Rubik', sans-serif;
 }
 .footer-box .footer-content ul li > span > i {
     position: absolute;
+    top: 4px;
+    left: 0px;
+    color: #d5b95a;
+}
+.footer-box .footer-content ul li > span > div > i {
     top: 4px;
     left: 0px;
     color: #d5b95a;

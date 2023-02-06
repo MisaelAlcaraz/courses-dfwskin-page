@@ -1,3 +1,13 @@
+const randomNUmber = () => {
+    for (let index = 1; index < 15; index++) {
+        if(index % 2 === 0){
+            $(`.pro-`+index).html(`<i class="fas fa-heart"></i>${Math.floor(Math.random() * 100)}`)
+        }else{
+            $(`.pro-`+index).html(`<i class="fas fa-user"></i>${Math.floor(Math.random() * 100)}`)
+        }
+    }
+}
+
 $(window).scroll(function() {
     if ($(window).scrollTop() >= 300) {
         $('.header-nav-area').addClass('fixed-header');
@@ -6,12 +16,13 @@ $(window).scroll(function() {
     }
 });
 $(document).ready(function() {
+    randomNUmber();
     $(".header-responsive-menu").click(function(){
         $('.header-nav-menu-area').slideToggle('slow');
     });
     $('.grid').isotope({
         itemSelector: '.grid-item',
-        filter: '.g-img'
+        filter: '.g-facilities'
     });
     // filter items on button click
     $('.filter-button-group').on('click', 'li', function() {

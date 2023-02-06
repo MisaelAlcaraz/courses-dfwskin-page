@@ -6,7 +6,10 @@
         followers: 3,
         hears: 4,
         hours: 320,
-        img:"",
+        img: {
+            lic: "assets/images/courses/LICENCIA-PESTAÑAS.png",
+            cur: "assets/images/courses/CURSO-LIFTING-Y-TINTE-DE-PESTAÑAS.png"
+        },
         skills:[
             'Colocación de pestañas postizas.',
             'Levantamiento de pestañas.',
@@ -41,7 +44,10 @@
         followers: 3,
         hears: 4,
         hours: 1000,
-        img: "",
+        img: {
+            lic: "assets/images/courses/LICENCIA-COSMETOLOGÍA.png",
+            cur: "assets/images/courses/CURSO-EXT.-PEST-TECNICA-CLASICA.png"
+        },
         programs: [
             'Anatomía y estructura de la piel y el cabello.',
             'Enfermedades de la piel, cuero cabelludo y uñas.',
@@ -82,7 +88,10 @@
         followers: 3,
         hears: 4,
         hours: 750,
-        img: "",
+        img: {
+            lic: "assets/images/courses/LICENCIA-ESTETICISTA.png",
+            cur: "assets/images/courses/CURSO-DERMAPEN.png"
+        },
         skills:[
             'Limpieza de la piel.',
             'Hidratación.',
@@ -121,7 +130,10 @@
         followers: 3,
         hears: 4,
         hours: 600,
-        img: "",
+        img: {
+            lic: "assets/images/courses/LICENCIA-MANICURISTA.png",
+            cur: "assets/images/courses/CURSO-EXT.-PEST.-TECNICA-VOLUMEN.png"
+        },
         skills: [
             'La aplicación de extensiones de uñas o de reparaciones.',
             'La aplicación de técnicas artísticas en la uñas.',
