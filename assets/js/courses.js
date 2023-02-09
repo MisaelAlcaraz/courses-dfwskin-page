@@ -161,5 +161,259 @@
             'Spas.',
             'Incluso desde casa.'
         ]
+    },
+    {
+        id: 5,
+        title: "CURSO EXT. PESTAÑAS",
+        description: "Las extensiones de pestañas es una de las tendencias en belleza más buscada de la última década y tienen la función de aumentar la cantidad de pestañas para intensificar la mirada y agrandar los ojos. Con este curso serás capaz de manejar de manera profesional la técnica de extensiones de pestañas y poder construir un negocio.",
+        followers: 3,
+        hears: 4,
+        hours: 3,
+        img: {
+            lic: "assets/images/courses/CURSO-EXT.-PEST-TECNICA-CLASICA.png",
+            cur: "assets/images/courses/CURSO-EXT.-PEST-TECNICA-CLASICA.png"
+        },
+        skills: [
+            'Colocación de pestañas postizas.',
+            'Levantamiento de pestañas. ',
+            'Aconsejar sobre tamaños y cantidad de pestañas acorde al tipo de ojos.',
+            'Control higiénico de dicha actividad.',
+            'Utilizar la técnica adecuada para su colocación.'
+        ],
+        programs: [
+            'Control de infecciones',
+            'Higiene y Seguridad durante el proceso ',
+            'Enfermedades del ojo ',
+            'Etapas de crecimiento de las pestañas ',
+            'Conocimiento de todo el material a utilizar ',
+            'Elección y elaboración de diseño, según el tipo de rostro',
+            'Practica en maniquí y con modelo.',
+            'Proceso paso a paso de todo el servicio de aplicación ',
+            'Tips profesionales.'
+        ],
+        jobs: [
+            'Emprendimiento en tu propio negocio.',
+            'Spas.',
+            'Hoteles.',
+            'Clínicas de Belleza.',
+            'Concursos de Belleza',
+            'Dentro de empresas de la industria cosmética.',
+            'Asesor de imagen en su propia consultoría privada.',
+            'Encargado de pasarelas y publicidad en el sector de modas.'
+        ],
+        exp: 'No se requiere que los estudiantes tengan ninguna experiencia antes de esta clase.',
+        bonus: [
+            'Técnica Individual 1 X 1',
+            'Bonus Clase de Lifting & Tinte de pestañas',
+            '3 meses de Asesoramiento.',
+            'Constancia de Estudios'
+        ]
+    },
+    {
+        id: 6,
+        title: "CURSO APARATOLOGÍA FACIAL",
+        description: "La aparatología son el conjunto de técnicas que se utilizan mediante aparatos eléctricos en el campo de la medicina estética. Son técnicas muy cómodas y efectivas, que se pueden aplicar tanto en el rostro como en el cuerpo. Aprende dominar el uso de los diferentes dispositivos para el cuidado de la piel, rejuvenecimiento facial y más.",
+        followers: 3,
+        hears: 4,
+        hours: 3,
+        img: {
+            lic: "assets/images/courses/CURSO-APARATOLOGÍA-FACIAL.png",
+            cur: "assets/images/courses/CURSO-APARATOLOGÍA-FACIAL.png"
+        },
+        skills: [
+            'Vapor',
+            'Lampara de wood',
+            'Galvánica ',
+            'Cepillo rotatorio',
+            'Microdermoabrasión ',
+            'Succión ',
+            'Máquina Rociadora',
+            'Martillo frío ',
+            'Alta frecuencia ',
+            'Hidra facial  ',
+            'Espátula iónica ',
+            'Ultrasonido',
+            'Microcorriente',
+            'Mascara LED',
+            'Radio frecuencia'
+        ],
+        programs: [
+            'Control de infecciones higiene y seguridad ',
+            'Protocolos de uso de cada dispositivo',
+            'Pautas de los tratamientos que podemos realizar ',
+            'Contraindicaciones ',
+            'Tratamiento y demostración del uso de la aparatología ',
+            'Práctica en modelo'
+        ],
+        jobs: [
+            'Emprendimiento en tu propio negocio.',
+            'Spas.',
+            'Hoteles.',
+            'Clínicas de Belleza.',
+            'Dentro de empresas de la industria cosmética.',
+        ],
+        exp: 'No se requiere que los estudiantes tengan ninguna experiencia antes de esta clase.',
+        bonus: [
+            '3 meses de Asesoramiento.',
+            'Constancia de Estudios'
+        ]
+    },
+    {
+        id: 7,
+        title: "CURSO PLASMAPEN",
+        description: "Es un sistema novedoso, seguro y efectivo para tratar de forma no quirúrgica el exceso de piel, arrugas, manchas y signos de envejecimiento de la piel.",
+        followers: 3,
+        hears: 4,
+        hours: 3,
+        img: {
+            lic: "assets/images/courses/CURSO-PLASMAPEN.png",
+            cur: "assets/images/courses/CURSO-PLASMAPEN.png"
+        },
+        skills: [
+            'Verrugas y lunares',
+            'Manchas',
+            'Tatuajes o delineado',
+            'Líneas de expresión ',
+            'Cicatrices'
+        ],
+        programs: [
+            'Higiene y seguridad durante el procedimiento',
+            'Protocolos de uso correcto del dispositivo',
+            'Contraindicación',
+            'Cuidados antes y después del tratamiento'
+        ],
+        jobs: [
+            'Emprendimiento en tu propio negocio.',
+            'Spas.',
+            'Hoteles.',
+            'Clínicas de Belleza.',
+            'Dentro de empresas de la industria cosmética.',
+        ],
+        exp: 'No se requiere que los estudiantes tengan ninguna experiencia antes de esta clase.',
+        bonus: [
+            '3 meses de Asesoramiento.',
+            'Constancia de Estudios'
+        ]
+    },
+    {
+        id: 8,
+        title: "CURSO DERMAPEN",
+        description: "Dermapen es una de las últimas tendencias dentro de la estética facial y es que se trata de un tipo de lápiz que borra imperfecciones y que nos ayuda a lucir un rostro mucho más homogéneo y terso.",
+        followers: 3,
+        hears: 4,
+        hours: 3,
+        img: {
+            lic: "assets/images/courses/CURSO-DERMAPEN.png",
+            cur: "assets/images/courses/CURSO-DERMAPEN.png"
+        },
+        skills: [
+            'Aprenderás a reducir las arrugas de la piel (en este post te damos tips para eliminar arrugas en la frente).',
+            'Eliminar las marcas de expresión.',
+            'Reducir la presencia de manchas del sol.',
+            'Eliminar las marcas y cicatrices de acné.',
+            'Eliminar las cicatrices que puedas tener en la dermis.',
+            'Tratar otras imperfecciones propias del paso del tiempo y de la edad.'
+        ],
+        programs: [
+            'Control de infecciones higiene y seguridad durante el procedimiento',
+            'Protocolos de uso del dispositivo (Tipos de aguja y diámetro de profundidad)',
+            'Beneficios y contraindicaciones del dispositivo ',
+            'Conocimiento de los productos y sus beneficios ',
+            'Antes y después del cuidado del paciente.',
+            ' Tratamiento y demostración paso a paso de la técnica.',
+            'Practica en maniquí y en Modelo'
+        ],
+        jobs: [
+            'Emprendimiento en tu propio negocio.',
+            'Spas.',
+            'Hoteles.',
+            'Clínicas de Belleza.',
+            'Dentro de empresas de la industria cosmética.',
+            'Asesor de imagen en su propia consultoría privada.'
+        ],
+        exp: 'No se requiere que los estudiantes tengan ninguna experiencia antes de esta clase.',
+        bonus: [
+            '3 meses de Asesoramiento.',
+            'Constancia de Estudios'
+        ]
+    },
+    {
+        id: 9,
+        title: "CURSO LIFTING DE PESTAÑAS",
+        description: "El Lifting de Pestañas es un tratamiento que alarga y crea una ligera curva hacia arriba de manera natural y duradera, consiguiendo mayor longitud y espesor. Para aquellas que tengan las pestañas medias o largas, rectas o sin forma, y deseen conseguir un resultado natural, ¡es la opción perfecta! ",
+        followers: 3,
+        hears: 4,
+        hours: 3,
+        img: {
+            lic: "assets/images/courses/CURSO-LIFTING-Y-TINTE-DE-PESTAÑAS.png",
+            cur: "assets/images/courses/CURSO-LIFTING-Y-TINTE-DE-PESTAÑAS.png"
+        },
+        skills: [
+            'Lifting de pestañas',
+            'Tinte',
+            'Keratina'
+        ],
+        programs: [
+            ''
+        ],
+        jobs: [
+            'Emprendimiento en tu propio negocio.',
+            'Spas.',
+            'Hoteles.',
+            'Clínicas de Belleza.',
+            'Dentro de empresas de la industria cosmética.',
+        ],
+        exp: 'No se requiere que los estudiantes tengan ninguna experiencia antes de esta clase.',
+        bonus: [
+            '3 meses de Asesoramiento.',
+            'Constancia de Estudios',
+            'Kit Profesional'
+        ]
+    },
+    {
+        id: 10,
+        title: "CURSO MICROBLADING",
+        description: "El microblading es una técnica de maquillaje permanente para cejas que se realiza utilizando pequeñas agujas para rellenar con color las áreas deseadas.",
+        followers: 3,
+        hears: 4,
+        hours: 6,
+        img: {
+            lic: "assets/images/courses/CURSO-MICROBLADING.jpg",
+            cur: "assets/images/courses/CURSO-MICROBLADING.jpg"
+        },
+        skills: [
+            'Diagnósticos de procedimientos',
+            'Identificar tipos de piel',
+            'Elección de pigmento ideal',
+            'Identificar Fototipos de piel'
+        ],
+        programs: [
+           'Estructura ósea del rostro',
+           'Identificación de Músculos donde se posiciona nuestra ceja',
+           'Anatomía de la piel y como trabajar sus diferentes tipos',
+           'Anatomía de la ceja y su estructura ',
+           'Teoría de Microblading ',
+           'Colorimetría, Neutralización y Corrección para trabajos previos',
+           'Practica en látex para dirección de trazos ',
+           'Diseño de cejas con Compás Áureo',
+           'Control de infecciones',
+           'Practica en Modelo real. (4 modelos)'
+        ],
+        jobs: [
+            'Emprendimiento en tu propio negocio.',
+            'Spas.',
+            'Hoteles.',
+            'Clínicas de Belleza.',
+            'Dentro de empresas de la industria cosmética.',
+        ],
+        exp: 'No se requiere que los estudiantes tengan ninguna experiencia antes de esta clase.',
+        bonus: [
+            'Técnica de Microshading',
+            'Constancia de Estudios',
+            '6 meses de Asesoramiento Online',
+            '1 clase Presencial por cada mes durante el periodo de Asesoramiento',
+            'Kit de práctica profesional para 30 Servicios',
+            'Plantillas de prácticas'
+        ]
     }
 ]

@@ -178,6 +178,8 @@
                                  <h3 class="theme-title">Descripción</h3>
                                  <p class="theme-description" id="course-description">The interest for Product Management is expanding at a crazy rate. An ever-increasing number of organizations are at last making sense of how significant this control and this job is to their prosperity.</p>
                               </div>
+                              <div class="cource-single-box" id="course-exp">
+                              </div>
                               <div class="cource-single-box">
                                  <h3 class="theme-title">Programa de estudios</h3>
                                  <ul id="course-program" class="learning-menu">
@@ -191,6 +193,8 @@
                                  <h3 class="theme-title">Áreas laborales</h3>
                                  <ul id="course-jobs" class="learning-menu">
                               </div>
+                              <div class="cource-single-box" id="course-bonus">
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -201,7 +205,7 @@
                            <li>
                               <div class="cource-detail-right-box">
                                  <div class="cource-detail-box-left">
-                                    <i class="far fa-clock"></i> <h3 class="theme-title">Horas</h3>
+                                    <i class="far fa-clock"></i> <h3 class="theme-title">Tiempo</h3>
                                  </div>
                                  <div class="cource-detail-box-right">
                                     <h3 class="theme-title" id="course-schedule"></h3>
@@ -334,16 +338,33 @@
          const course = courses.find(({id}) => id === +product)
          $('.title-prod').text(type === 'lic' ? 'LICENCIA' : 'CURSO')
          if(course){
-            const {title, description, hours, programs, skills, jobs, img} = course
+            const {title, description, hours, programs, skills, jobs, img, bonus = null, exp = null} = course
             $('#produc-img').attr('src', img[type])
             $('#course-title').html(title)
             $('#course-description').html(description)
-            $('#course-schedule').html(`${hours} Horas`)
+            $('#course-schedule').html(type === 'lic' ? `${hours} Horas` : `${hours} Meses`)
             $('#course-program').html(
                programs.map((program)=>{
                   return `<li><i class="fas fa-graduation-cap"></i>${program}</li>`
                })
             )
+            if(exp){
+               $('#course-exp').html(
+                  '<h3 class="theme-title">Experiencia</h3>'+
+                  exp
+               )
+            }
+            if(bonus){
+               const listBonus = bonus.map((bonu)=>{
+                  return `<li><i class="fas fa-cogs"></i>${bonu}</li>`
+               }).join('')
+               $('#course-bonus').html(
+                  '<h3 class="theme-title">Bonus</h3>'+
+                  '<ul class="learning-menu">'+
+                     listBonus +
+                  '</ul>'
+               )
+            }
             $('#course-skills').html(
                skills.map((skill)=>{
                   return `<li><i class="fas fa-cogs"></i>${skill}</li>`
