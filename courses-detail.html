@@ -193,15 +193,25 @@
                                  <h3 class="theme-title">Áreas laborales</h3>
                                  <ul id="course-jobs" class="learning-menu">
                               </div>
-                              <div class="cource-single-box" id="course-bonus">
-                              </div>
                            </div>
                         </div>
                      </div>
                   </div>
                   <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                      <div class="cource-detail-right wow fadeInUp center" data-wow-delay="0.2s">
-                        <ul>
+                        <ul >
+                           <li>
+                              <div class="cource-detail-right-box">
+                                 <div class="cource-detail-box-left" id="course-bonus-items">
+                                    <i class="far fa-clock"></i> <h3 class="theme-title">Tiempo</h3>
+
+                                    <h3 class="theme-title">Tiempo</h3>
+
+                                    <h3 class="theme-title">Tiempo</h3>
+
+                                 </div>
+                              </div>
+                           </li>
                            <li>
                               <div class="cource-detail-right-box">
                                  <div class="cource-detail-box-left">
@@ -214,7 +224,7 @@
                            </li>
                            <li>
                               <div class="enroll-cource">
-                                 <a style="text-align: center;" href="https://wa.link/83g6nm" class="theme-btn"> <i style="margin-right: 10px;font-size: 22px;" class="fab fa-whatsapp"></i>Conocer descuentos de esta licencia</a>
+                                 <a style="text-align: center;" id="whatsapp-button" href="https://wa.link/83g6nm" class="theme-btn"> <i style="margin-right: 10px;font-size: 22px;" class="fab fa-whatsapp"></i></a>
                               </div>
                            </li>
                         </ul>
@@ -337,6 +347,7 @@
          const type = urlParams.get('prod')
          const course = courses.find(({id}) => id === +product)
          $('.title-prod').text(type === 'lic' ? 'LICENCIA' : 'CURSO')
+         $('#whatsapp-button').text(type === 'lic' ? 'Conocer descuentos de esta licencia' : 'Conocer descuentos de este curso')
          if(course){
             const {title, description, hours, programs, skills, jobs, img, bonus = null, exp = null} = course
             $('#produc-img').attr('src', img[type])
@@ -358,8 +369,7 @@
                const listBonus = bonus.map((bonu)=>{
                   return `<li><i class="fas fa-cogs"></i>${bonu}</li>`
                }).join('')
-               $('#course-bonus').html(
-                  '<h3 class="theme-title">Bonus</h3>'+
+               $('#course-bonus-items').html(
                   '<ul class="learning-menu">'+
                      listBonus +
                   '</ul>'
