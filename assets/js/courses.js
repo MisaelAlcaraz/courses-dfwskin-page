@@ -25,7 +25,7 @@
             'Diseños según tu forma de ojo  y rostro',
             'Normas y reglamentaciones del estado y además te incluimos dos certificaciones adicionales',
             'Pestañas de Volumen',
-            'Lifting & Tinte de pestañas'
+            '<span style="font-weight: bold;color: #d5b95a;">Bonus</span> Clase de Lifting & Tinte de pestañas'
         ],
         jobs: [
             'Spas.',
@@ -201,7 +201,7 @@
         exp: 'No se requiere que los estudiantes tengan ninguna experiencia antes de esta clase.',
         bonus: [
             'Técnica Individual 1 X 1',
-            'Bonus Clase de Lifting & Tinte de pestañas',
+            '<span style="font-weight: bold;color: #d5b95a;">Bonus</span> Clase de Lifting & Tinte de pestañas',
             '3 meses de Asesoramiento.',
             'Certificado de Estudios'
         ]
@@ -367,7 +367,7 @@
         bonus: [
             '3 meses de Asesoramiento.',
             'Certificado de Estudios',
-            'Tinte de pestañas',
+            '<span style="font-weight: bold;color: #d5b95a;">Bonus</span> Tinte de pestañas',
             'Incluye Kit Profesional',
         ]
     },
