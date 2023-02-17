@@ -1,11 +1,11 @@
  const courses = [
     {
         id: 1,
-        title: "Pestañas",
+        title: "Extensiones de Pestañas",
         description:"La licencia en Pestañas, es una carrera para los amantes de las pestañas, te permitirá desarrollar habilidades en diferentes técnicas luciendo principalmente la mirada de una persona. Este programa está aprobado por el TDLR (Departamento de Licencias y Regulaciones de Texas) y se prepara al estudiante para cursar satisfactoriamente y el emprendimiento en nuevos negocios dentro de la industria de la belleza",
         followers: 3,
         hears: 4,
-        hours: '320 Horas',
+        hours: '2 1/2 y 5 Meses',
         img: {
             lic: "assets/images/courses/LICENCIA-PESTAÑAS.png",
             cur: "assets/images/courses/CURSO-LIFTING-Y-TINTE-DE-PESTAÑAS.png"
@@ -39,7 +39,7 @@
     {
         id:  2,
         title: "Cosmetologia",
-        description: "La cosmetología es la ciencia que permite obtener los conocimientos en colorimetría, corte y cuidado del cabello, productos en el cuidado y salud de la piel, cabello, uñas, productos y técnicas para el embellecimiento.",
+        description: "La cosmetología es la ciencia que permite obtener los conocimientos en colorimetría, corte, salud y cuidado del cabello, productos y técnicas para el embellecimiento.",
         followers: 3,
         hears: 4,
         hours: "7 1/2 Meses y 15 Meses",
@@ -62,7 +62,7 @@
         ],
         skills:[
             'Tratamientos de color.',
-            'Corde de cabello de Dama y Caballero',
+            'Corte de cabello de Dama y Caballero',
             'Depilación con cera',
             'Tratamiento de ondulación',
             'Manicura y Pedicura',
@@ -97,7 +97,6 @@
             'Hidratación.',
             'Masajes.',
             'Aplicación cosmética.',
-            'Bronceado.',
             'Depilación.',
             'Armonización facial.'
         ],
@@ -254,7 +253,7 @@
         bonus: [
             '3 meses de Asesoramiento.',
             'Certificado de Estudios',
-            'Kit de Faciales Profesional'
+            'Incluye Kit de Faciales Profesional'
         ]
     },
     {
@@ -292,7 +291,7 @@
         bonus: [
             '3 meses de Asesoramiento.',
             'Certificado de Estudios',
-            'Kit Profesional'
+            'Incluye Kit Profesional'
         ]
     },
     {
@@ -335,7 +334,7 @@
         bonus: [
             '3 meses de Asesoramiento.',
             'Certificado de Estudios',
-            'Kit Profesional'
+            'Incluye Kit Profesional'
         ]
     },
     {
@@ -368,8 +367,8 @@
         bonus: [
             '3 meses de Asesoramiento.',
             'Certificado de Estudios',
-            'Kit Profesional',
-            'Tinte de pestañas'
+            'Tinte de pestañas',
+            'Incluye Kit Profesional',
         ]
     },
     {
@@ -410,7 +409,7 @@
         ],
         exp: 'No se requiere que los estudiantes tengan ninguna experiencia antes de esta clase.',
         bonus: [
-            'Técnica de Microshading',
+            'Técnica de Microblading',
             'Certificado de Estudios',
             '6 meses de Asesoramiento Online',
             '1 clase Presencial por cada mes durante el periodo de Asesoramiento',
