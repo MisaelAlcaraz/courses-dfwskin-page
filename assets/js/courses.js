@@ -39,7 +39,7 @@
     {
         id:  2,
         title: "Cosmetologia",
-        description: "La cosmetología es la ciencia que permite obtener los conocimientos en colorimetría, corte, salud y cuidado del cabello, productos y técnicas para el embellecimiento.",
+        description: "La cosmetología es una carrera muy amplia en el área de la belleza, abarca temas como la colorimetría, corte y cuidado del cabello, además incluye el cuidado y salud de las uñas, productos y tecnicas para el embellecimiento.",
         followers: 3,
         hears: 4,
         hours: "7 1/2 Meses y 15 Meses",
