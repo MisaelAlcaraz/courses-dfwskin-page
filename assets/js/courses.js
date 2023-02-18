@@ -39,13 +39,13 @@
     {
         id:  2,
         title: "Cosmetologia",
-        description: "La cosmetología es una carrera muy amplia en el área de la belleza, abarca temas como la colorimetría, corte y cuidado del cabello, además incluye el cuidado y salud de las uñas, productos y tecnicas para el embellecimiento.",
+        description: "La cosmetología es una carrera muy amplia en el área de la belleza, abarca temas como la colorimetría, corte y cuidado del cabello, además incluye el cuidado y salud de las uñas, productos y técnicas para el embellecimiento.",
         followers: 3,
         hears: 4,
         hours: "7 1/2 Meses y 15 Meses",
         img: {
             lic: "assets/images/courses/LICENCIA-COSMETOLOGÍA.png",
-            cur: "assets/images/courses/CURSO-EXT.-PEST-TECNICA-CLASICA.png"
+            cur: "assets/images/courses/CURSO-EXT.-PEST-técnica-CLASICA.png"
         },
         programs: [
             'Anatomía y estructura de la piel y el cabello.',
@@ -130,7 +130,7 @@
         hours: "5 y 10 Meses",
         img: {
             lic: "assets/images/courses/LICENCIA-MANICURISTA.png",
-            cur: "assets/images/courses/CURSO-EXT.-PEST.-TECNICA-VOLUMEN.png"
+            cur: "assets/images/courses/CURSO-EXT.-PEST.-técnica-VOLUMEN.png"
         },
         skills: [
             'La aplicación de extensiones de uñas o de reparaciones.',
@@ -168,8 +168,8 @@
         hears: 4,
         hours: '2 Dias',
         img: {
-            lic: "assets/images/courses/CURSO-EXT.-PEST-TECNICA-CLASICA.png",
-            cur: "assets/images/courses/CURSO-EXT.-PEST-TECNICA-CLASICA.png"
+            lic: "assets/images/courses/CURSO-EXT.-PEST-técnica-CLASICA.png",
+            cur: "assets/images/courses/CURSO-EXT.-PEST-técnica-CLASICA.png"
         },
         skills: [
             'Colocación de pestañas postizas.',
