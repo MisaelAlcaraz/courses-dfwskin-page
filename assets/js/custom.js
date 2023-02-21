@@ -1,11 +1,13 @@
 const randomNUmber = () => {
-    for (let index = 1; index < 15; index++) {
-        if(index % 2 === 0){
-            $(`.pro-`+index).html(`<i class="fas fa-heart"></i>${Math.floor(Math.random() * 100)}`)
-        }else{
-            $(`.pro-`+index).html(`<i class="fas fa-user"></i>${Math.floor(Math.random() * 100)}`)
-        }
-    }
+    const  crstmp = JSON.parse(localStorage.getItem('coursesTemplate'))
+    crstmp.map(({
+        id, 
+        followers,
+        hears}) => {
+        $(`.${id}-pro-users`).html(`<i class="fas fa-heart"></i>${followers}`)
+        
+        $(`.${id}-pro-hearts`).html(`<i class="fas fa-user"></i>${hears}`)
+    })
 }
 
 $(window).scroll(function() {

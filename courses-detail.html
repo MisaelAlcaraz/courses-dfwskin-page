@@ -163,8 +163,8 @@
                               <h2 id="course-title">titulo</h2>
                               <div class="cource-meta">
                                  <ul>
-                                    <li><i class="fas fa-user"></i> 31</li>
-                                    <li><i class="fas fa-heart"></i> 10</li>
+                                    <li id="followers-heart"><i class="fas fa-heart"></i> 10</li>
+                                    <li id="followers-user"><i class="fas fa-user"></i> 31</li>
                                  </ul>
                               </div>
                            </div>
@@ -334,15 +334,30 @@
          const urlParams = new URLSearchParams(queryString);
          const product = urlParams.get('course')
          const type = urlParams.get('prod')
-         const course = courses.find(({id}) => id === +product)
+         const  crstmp = JSON.parse(localStorage.getItem('coursesTemplate'))
+         const course = crstmp.find(({id}) => id === +product)
          $('.title-prod').text(type === 'lic' ? 'LICENCIA' : 'CURSO')
          $('#whatsapp-button').text(type === 'lic' ? 'Conocer descuentos de esta licencia' : 'Conocer descuentos de este curso')
          if(course){
-            const {title, description, hours, programs, skills, jobs, img, bonus = null, exp = null} = course
+            const {
+               title, 
+               description, 
+               hours, 
+               programs, 
+               skills, 
+               jobs, 
+               img, 
+               bonus = null, 
+               exp = null,
+               followers,
+               hears
+            } = course
             $('#produc-img').attr('src', img[type])
             $('#course-title').html(title)
             $('#course-description').html(description)
             $('#course-schedule').html(`${hours}`)
+            $('#followers-user').html(`<i class="fas fa-user"></i>${hears}`)
+            $('#followers-heart').html(`<i class="fas fa-heart"></i>${followers}`)
             $('#course-program').html(
                programs.map((program)=>{
                   return `<li><i class="fas fa-graduation-cap"></i>${program}</li>`

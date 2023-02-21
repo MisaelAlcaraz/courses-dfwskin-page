@@ -2,9 +2,9 @@
     {
         id: 1,
         title: "Extensiones de Pestañas",
-        description:"La licencia en Pestañas, es una carrera para los amantes de las pestañas, te permitirá desarrollar habilidades en diferentes técnicas luciendo principalmente la mirada de una persona. Este programa está aprobado por el TDLR (Departamento de Licencias y Regulaciones de Texas) y se prepara al estudiante para cursar satisfactoriamente y el emprendimiento en nuevos negocios dentro de la industria de la belleza",
-        followers: 3,
-        hears: 4,
+        description:"La licencia en Pestañas, es una carrera para los amantes de las pestañas, te permitirá desarrollar habilidades en diferentes técnicas luciendo principalmente la mirada de una persona",
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: '2 1/2 y 5 Meses',
         img: {
             lic: "assets/images/courses/LICENCIA-PESTAÑAS.png",
@@ -40,8 +40,8 @@
         id:  2,
         title: "Cosmetologia",
         description: "La cosmetología es una carrera muy amplia en el área de la belleza, abarca temas como la colorimetría, corte y cuidado del cabello, además incluye el cuidado y salud de las uñas, productos y técnicas para el embellecimiento.",
-        followers: 3,
-        hears: 4,
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: "7 1/2 Meses y 15 Meses",
         img: {
             lic: "assets/images/courses/LICENCIA-COSMETOLOGÍA.png",
@@ -84,9 +84,9 @@
     {
         id: 3,
         title: "Esteticista",
-        description:"Un esteticista es un profesional que tiene la capacidad de ofrecer tratamientos de belleza enfocados en la piel principalmente, de igual manera puede ofrecer servicios como faciales, corporales, cosméticos para manos y pies e incluso tratamientos especializados como es el caso de las terapias de rejuvenecimiento de piel.",
-        followers: 3,
-        hears: 4,
+        description:"Esteticista es la enseñanza  faciales, corporales, cosméticos para manos y pies e incluso tratamientos especializados como es el caso de las terapias de rejuvenecimiento de piel.",
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: '6 y 12 Meses',
         img: {
             lic: "assets/images/courses/LICENCIA-ESTETICISTA.png",
@@ -124,9 +124,9 @@
     {
         id: 4,
         title: "Manicura",
-        description: "Se llama manicuro,manicura o manicurista a la persona que tiene por ocupación el cuidado y embellecimiento de las manos y en especial, el cuidado y pintura de las uñas. sin contar con muchas otras ocupaciones propias del área.",
-        followers: 3,
-        hears: 4,
+        description: "Aprenderás al el cuidado, embellecimiento de las manos y en especial, el cuidado y pintura de las uñas sin contar con muchas otras ocupaciones propias del área.",
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: "5 y 10 Meses",
         img: {
             lic: "assets/images/courses/LICENCIA-MANICURISTA.png",
@@ -162,14 +162,14 @@
     },
     {
         id: 5,
-        title: "CURSO EXT. PESTAÑAS",
+        title: "CURSO EXTENSIONES DE PESTAÑAS",
         description: "Las extensiones de pestañas es una de las tendencias en belleza más buscada de la última década y tienen la función de aumentar la cantidad de pestañas para intensificar la mirada y agrandar los ojos. Con este curso serás capaz de manejar de manera profesional la técnica de extensiones de pestañas y poder construir un negocio.",
-        followers: 3,
-        hears: 4,
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: '2 Dias',
         img: {
-            lic: "assets/images/courses/CURSO-EXT.-PEST-técnica-CLASICA.png",
-            cur: "assets/images/courses/CURSO-EXT.-PEST-técnica-CLASICA.png"
+            lic: "assets/images/courses/CURSO-EXT.-PEST-TECNICA-CLASICA.png",
+            cur: "assets/images/courses/CURSO-EXT.-PEST-TECNICA-CLASICA.png"
         },
         skills: [
             'Colocación de pestañas postizas.',
@@ -210,8 +210,8 @@
         id: 6,
         title: "CURSO APARATOLOGÍA FACIAL",
         description: "La aparatología son el conjunto de técnicas que se utilizan mediante aparatos eléctricos en el campo de la medicina estética. Son técnicas muy cómodas y efectivas, que se pueden aplicar tanto en el rostro como en el cuerpo. Aprende dominar el uso de los diferentes dispositivos para el cuidado de la piel, rejuvenecimiento facial y más.",
-        followers: 3,
-        hears: 4,
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: '2 Dias',
         img: {
             lic: "assets/images/courses/CURSO-APARATOLOGÍA-FACIAL.png",
@@ -260,8 +260,8 @@
         id: 7,
         title: "CURSO PLASMAPEN",
         description: "Es un sistema novedoso, seguro y efectivo para tratar de forma no quirúrgica el exceso de piel, arrugas, manchas y signos de envejecimiento de la piel.",
-        followers: 3,
-        hears: 4,
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: '1 Dia',
         img: {
             lic: "assets/images/courses/CURSO-PLASMAPEN.png",
@@ -298,8 +298,8 @@
         id: 8,
         title: "CURSO DERMAPEN",
         description: "Dermapen es una de las últimas tendencias dentro de la estética facial y es que se trata de un tipo de lápiz que borra imperfecciones y que nos ayuda a lucir un rostro mucho más homogéneo y terso.",
-        followers: 3,
-        hears: 4,
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: '1 Dia',
         img: {
             lic: "assets/images/courses/CURSO-DERMAPEN.png",
@@ -341,8 +341,8 @@
         id: 9,
         title: "CURSO LIFTING DE PESTAÑAS",
         description: "El Lifting de Pestañas es un tratamiento que alarga y crea una ligera curva hacia arriba de manera natural y duradera, consiguiendo mayor longitud y espesor. Para aquellas que tengan las pestañas medias o largas, rectas o sin forma, y deseen conseguir un resultado natural, ¡es la opción perfecta! ",
-        followers: 3,
-        hears: 4,
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: '1 Dia',
         img: {
             lic: "assets/images/courses/CURSO-LIFTING-Y-TINTE-DE-PESTAÑAS.png",
@@ -375,8 +375,8 @@
         id: 10,
         title: "CURSO MICROBLADING",
         description: "El microblading es una técnica de maquillaje permanente para cejas que se realiza utilizando pequeñas agujas para rellenar con color las áreas deseadas.",
-        followers: 3,
-        hears: 4,
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
         hours: '3 Dias',
         img: {
             lic: "assets/images/courses/CURSO-MICROBLADING.jpg",
@@ -418,3 +418,8 @@
         ]
     }
 ]
+
+const coursesTemplate = localStorage.getItem('coursesTemplate');
+if(!coursesTemplate){
+    localStorage.setItem('coursesTemplate', JSON.stringify(courses))
+}
