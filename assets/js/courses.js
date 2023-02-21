@@ -420,6 +420,16 @@
 ]
 
 const coursesTemplate = localStorage.getItem('coursesTemplate');
+const time = localStorage.getItem('time');
+
 if(!coursesTemplate){
     localStorage.setItem('coursesTemplate', JSON.stringify(courses))
+}
+if(time){
+    const now = new Date().getTime();
+    if((now - +time) / (1000 * 3600 * 24) > 1){
+        localStorage.setItem('coursesTemplate', JSON.stringify(courses))
+    }
+}else{
+    localStorage.setItem('time', new Date().getTime())
 }
