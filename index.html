@@ -1748,9 +1748,11 @@
          <!-- client -->
          <!-- Modal -->
          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" style="max-width: 800px; height: 750px;" role="document">
-               <div class="modal-content" style="height: 100%; width: 100%;">
-                  <iframe style="width: 100%; height: 100%;" class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+            <div class="modal-dialog" style="max-width: 800px;height: 452px;margin-top: 130px;" role="document">
+               <div id="divVideo" class="modal-content" style="height: 100%; width: 100%;">              
+                  <video  autoplay controls style="width: 100%;height: 100%">
+                     <source  id="video"  style="width: 100%;height: 100%" src="" type="video/mp4" />
+                  </video>
                </div>
             </div>
          </div> 
@@ -1865,10 +1867,13 @@
             const video = $(this).attr('src')
             $('#myModal').modal('show');
             $("#video").attr('src', video); 
+            $("#divVideo video")[0].load();
+
          })
          $('#myModal').on('hide.bs.modal', function (e) {
             // a poor man's stop video
             $("#video").attr('src',""); 
+            $("#divVideo video")[0].load();
         }) 
 
       </script>
