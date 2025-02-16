@@ -1625,11 +1625,9 @@
                               <h3 class="theme-title"><a href="">MARIA DEL ROCÍO</a></h3>
                            </div> -->
                         </div>
-                        <div class="teacher-box wow fadeInUp center show-video" src="./assets/images/movies/carousel/testimonios_6.mp4"  data-wow-delay="0.1s">
+                        <div class="teacher-box wow fadeInUp center show-img" src="./assets/images/movies/carousel/testimonios_6.jpg"  data-wow-delay="0.1s">
                            <div class="teacher-images">
-                              <video autoplay muted loop style="width: 251px;height: 251px;">
-                                 <source src="./assets/images/movies/carousel/testimonios_6.mp4" type="video/mp4" />
-                              </video>
+                              <img src="./assets/images/movies/carousel/testimonios_6.jpg" style="width: 251px;height: 251px;">
                               <div class="theme-social-icon">
                                  <ul>
                                     <li><a class="facebook" href="https://www.facebook.com/DFWSKIN" ><i class="fab fa-facebook-f"></i></a></li>
@@ -1642,11 +1640,9 @@
                               <h3 class="theme-title"><a href="">MARIA DEL ROCÍO</a></h3>
                            </div> -->
                         </div>
-                        <div class="teacher-box wow fadeInUp center show-video" src="./assets/images/movies/carousel/testimonios_7.mp4"  data-wow-delay="0.1s">
+                        <div class="teacher-box wow fadeInUp center show-img" src="./assets/images/movies/carousel/testimonios_7.jpg"  data-wow-delay="0.1s">
                            <div class="teacher-images">
-                              <video autoplay muted loop style="width: 251px;height: 251px;">
-                                 <source src="./assets/images/movies/carousel/testimonios_7.mp4" type="video/mp4" />
-                              </video>
+                              <img src="./assets/images/movies/carousel/testimonios_7.jpg" style="width: 251px;height: 251px;">
                               <div class="theme-social-icon">
                                  <ul>
                                     <li><a class="facebook" href="https://www.facebook.com/DFWSKIN" ><i class="fab fa-facebook-f"></i></a></li>
@@ -1753,6 +1749,12 @@
                   <video  autoplay controls style="width: 100%;height: 100%">
                      <source  id="video"  style="width: 100%;height: 100%" src="" type="video/mp4" />
                   </video>
+               </div>
+            </div>
+         </div> 
+         <div class="modal fade" id="myModalImg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="max-width: 800px;height: 452px;margin-top: 130px;" role="document">
+               <div id="divImg" class="modal-content" style="height: 100%; width: 100%;">
                </div>
             </div>
          </div> 
@@ -1868,14 +1870,17 @@
             $('#myModal').modal('show');
             $("#video").attr('src', video); 
             $("#divVideo video")[0].load();
-
          })
          $('#myModal').on('hide.bs.modal', function (e) {
             // a poor man's stop video
             $("#video").attr('src',""); 
-            $("#divVideo video")[0].load();
-        }) 
-
+            $("#divVideo video")[0]?.load();
+         }) 
+        $('.show-img').on('click', function(e) {
+            const img = $(this).attr('src')
+            $('#myModalImg').modal('show');
+            $("#divImg").html(`<img src="${img}" alt="Image">`);
+         })
       </script>
    </body>
 </html>
