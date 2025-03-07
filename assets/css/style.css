@@ -853,7 +853,7 @@ a{
 .reviews-box .reviews-content p {
     color: #fff;
     margin: 0px;
-    font-size: 14px;
+    font-size: 12px;
 }
 /* cource */
 /* event */
@@ -2157,4 +2157,20 @@ font-family: 'Rubik', sans-serif;
         -o-transform: translateY(0);
     }
 }
+.rigth-review-area  p {
+    color: #141313ba !important;
+    font-weight: bold;
+}
+
+.rigth-review-area{
+    padding-top: 15px
+}
+
+.reviews-area  .row {
+    margin-bottom: 20px !important;
+}
 /* keyframe */
+
+.rigth-review-area img {
+    height: 4pc;
+}
