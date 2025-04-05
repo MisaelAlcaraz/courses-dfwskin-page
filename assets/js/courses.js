@@ -38,7 +38,7 @@
     },
     {
         id:  2,
-        title: "Cosmetologia",
+        title: "Cosmetología",
         description: "La cosmetología es una carrera muy amplia en el área de la belleza, abarca temas como la colorimetría, corte y cuidado del cabello, además incluye el cuidado y salud de las uñas, productos y técnicas para el embellecimiento.",
         followers: Math.floor(Math.random() * 100),
         hears: Math.floor(Math.random() * 100),
@@ -123,7 +123,7 @@
     },
     {
         id: 4,
-        title: "Manicura",
+        title: "Manicurista",
         description: "Aprenderás al el cuidado, embellecimiento de las manos y en especial, el cuidado y pintura de las uñas sin contar con muchas otras ocupaciones propias del área.",
         followers: Math.floor(Math.random() * 100),
         hears: Math.floor(Math.random() * 100),
