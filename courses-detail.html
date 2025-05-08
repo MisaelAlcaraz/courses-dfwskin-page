@@ -374,6 +374,7 @@
          const type = urlParams.get('prod')
          const  crstmp = JSON.parse(localStorage.getItem('coursesTemplate'))
          const course = crstmp.find(({id}) => id === +product)
+         console.log(course)
          $('.title-prod').text(type === 'lic' ? 'LICENCIA' : 'CURSO')
          $('#whatsapp-button').text(type === 'lic' ? 'Conocer descuentos de esta licencia' : 'Conocer descuentos de este curso')
          if(course){
@@ -388,7 +389,8 @@
                bonus = null, 
                exp = null,
                followers,
-               hears
+               hears,
+               id,
             } = course
             $('#produc-img').attr('src', img[type])
             $('#course-title').html(title)
@@ -396,11 +398,29 @@
             $('#course-schedule').html(`${hours}`)
             $('#followers-user').html(`<i class="fas fa-user"></i>${hears}`)
             $('#followers-heart').html(`<i class="fas fa-heart"></i>${followers}`)
-            $('#course-program').html(
-               programs.map((program)=>{
-                  return `<li><i class="fas fa-graduation-cap"></i>${program}</li>`
-               })
-            )
+            if(id === 11){
+               const ul = $('<ul></ul>');
+
+               $.each(programs, function(key, value) {
+                 const li = $('<li><strong>' + value.title + '</strong></li>');
+                 const subUl = $('<ul></ul>');
+         
+                 $.each(value.programs, function(_, program) {
+                   subUl.append('<li><i class="fas fa-cogs"></i>' + program + '</li>');
+                 });
+         
+                 li.append(subUl);
+                  ul.append(li);
+               });
+         
+               $('#course-program').append(ul);
+            } else {
+               $('#course-program').html(
+                  programs.map((program)=>{
+                     return `<li><i class="fas fa-graduation-cap"></i>${program}</li>`
+                  })
+               )
+            }
             if(exp){
                $('#course-exp').html(
                   '<h3 class="theme-title">Experiencia</h3>'+

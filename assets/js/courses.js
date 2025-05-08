@@ -416,7 +416,57 @@
             'Kit de práctica profesional para 30 Servicios',
             'Plantillas de prácticas'
         ]
-    }
+    },
+    {
+        id: 11,
+        title: "Barbería",
+        description:"La Barbería es el arte y la técnica de cortar, arreglar y cuidar el cabello y la barba, combinando estilo, higiene y tendencias modernas. Va dirigida principalmente a hombres que buscan un servicio profesional para su imagen personal. También está enfocada a quienes desean desarrollarse como barberos profesionales, ya sea para trabajar en barberías establecidas o abrir su propio negocio.",
+        followers: Math.floor(Math.random() * 100),
+        hears: Math.floor(Math.random() * 100),
+        hours: '1,000 horas',
+        img: {
+            lic: "assets/images/courses/LICENCIA-BAERBERIA.jpg",
+            cur: "assets/images/courses/CURSO-BAERBERIA.jpg"
+        },
+        programs:{
+            p1: {
+                title: 'Cortes básicos:',
+                programs:[
+                'High Taper',
+                'High Fade',
+                'Mid Fade',
+                'Mid Taper',
+                'Low Taper',
+                'Low Fade'
+                ]
+            },
+            p2: {
+                title: 'Cortes avanzados y estilos personalizados',
+                programs:[
+                    'Comb Over',
+                    'Pompadour',
+                    'Slick Back',
+                    'Burst Taper Skin',
+                    'Burst Fade Regular Skin'
+                ]
+            }
+        },
+        skills: [
+            'Afeitado con navaja del cuero cabelludo',
+            'Afeitado con navaja en barba',
+            'Tintes de cabello',
+            'Ondulados permanentes'
+        ],
+        jobs: [
+            'Barberías tradicionales o modernas',
+            'Salones de belleza unisex',
+            'Barbería móvil',
+            'Redes sociales y contenido digital',
+            'Educador o instructor',
+            'Distribución de productos',
+            'Propietario de Barberías'
+        ]
+    },
 ]
 
 const coursesTemplate = localStorage.getItem('coursesTemplate');
